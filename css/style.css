@@ -1,0 +1,47 @@
+.conteudo {
+    margin: 0;
+    padding: 5px;
+    background-color: #60027a6e;
+  }
+  
+  .conteudo > h1, .browser {
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  .artigo {
+    background: white;
+  }
+  
+  .artigo > h2, p {
+    margin: 4px;
+    font-size: 90%;
+  }
+
+  aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #c603fcfb;
+    text-align: left;
+    padding: 8px;
+  }
+  th{
+    background-color:#60027a6e
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
